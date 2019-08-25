@@ -1,0 +1,262 @@
+.card-header .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header .menu .service {
+    display: flex;
+    width: 3.75rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header .menu .service {
+    display: flex;
+    width: 2.8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-header .menu .service img {
+    width: 1.09375rem;
+}
+
+.card-header .search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+    justify-content: space-between;
+}
+
+.search .searchBar {
+    width: 3rem;
+}
+
+.search .searchBar li {
+    width: 2.5rem;
+}
+
+.search .searchBar li a {
+    font-size: .75rem;
+    color: #808080;
+}
+
+.search .searchBar li a:hover {
+    color: red;
+}
+
+.search .searchBar li img, .nav .nav-menu li img {
+    width: 0.5rem;
+}
+
+.search form {
+    width: 15.25rem;
+}
+
+.search .tu {
+    position: absolute;
+    margin-left: 5.5rem;
+    margin-top: -1.5rem;
+}
+
+.search .tu img {
+    width: .78125rem;
+}
+
+.search form input {
+    position: relative;
+    width: 15.25rem;
+    height: 1.5625rem;
+    border-radius: .78125rem;
+    background: #f5f5f5;
+    font-size: .625rem;
+    border: 1px solid #808080;
+    padding-left: .5rem;
+}
+
+.search form input::-webkit-input-placeholder {
+    padding-left: 6.2rem;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    margin-top: 1.40625rem;
+}
+
+.nav .nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .nav-menu li a {
+    color: #333333;
+    font-size: .625rem;
+    font-weight: 600;
+}
+
+.nav .nav-menu .msg a {
+    color: #f6164b;
+}
+
+.nav .nav-menu li a:hover {
+    color: #f6164b;
+}
+
+.card_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_section .summary {
+    width: 21.5625rem;
+    display: flex;
+    padding-top: 1.25rem;
+    justify-content: space-between;
+}
+
+.card_section .summary .hot {
+    display: flex;
+}
+
+.card_section .summary .hot .lll {
+    width: 3.125rem;
+    background: #ffffff;
+    position: relative;
+}
+
+.card_section .summary .hot .llll {
+    width: .625rem;
+    position: absolute;
+    margin-top: -0.78125rem;
+    margin-left: 1.15625rem;
+}
+
+.card_section .search-output {
+    width: 18rem;
+    margin-top: 0.8rem;
+    justify-content: space-between;
+}
+
+.card_section .search-output p {
+    width: 16.5rem;
+    font-size: .625rem;
+    line-height: 1rem;
+    padding-top: .15625rem;
+    color: #808080;
+}
+
+.card_section .video {
+    display: flex;
+    justify-content: right;
+    margin-top: .3125rem;
+    margin-left: 3.4687rem;
+    width: 21.5625rem;
+    height: 10.15625rem;
+}
+
+.card_section .video video {
+    width: 18.125rem;
+    height: 10.15625rem;
+}
+
+.card_section .vote {
+    margin-top: .3125rem;
+    width: 21.5625rem;
+    /* background: #f6164b; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_section .vote ul {
+    display: flex;
+}
+
+.card_section .vote ul li {
+    margin-left: .625rem;
+}
+
+.card_section .vote ul li img {
+    width: 1.09375rem;
+}
+
+.summar {
+    width: 21.5625rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* background: #f5f5f5; */
+}
+
+.summar .ffg {
+    width: 18.125rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: .15625rem;
+}
+
+.summar .article {
+    width: 18.125rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: .3125rem;
+}
+
+.summar .article ul {
+    margin-top: .3125rem;
+    margin-left: .3125rem;
+}
+
+.summar .article .lll {
+    width: 1.71875rem;
+}
+
+.summar .article .searchoutput {
+    margin-left: .3125rem;
+    margin-top: .3125rem;
+}
+
+.summar .article .searchoutput h6 {
+    font-size: .78125rem;
+    font-weight: normal;
+}
+
+.summar .article .searchoutput p {
+    /* width: 16.5rem; */
+    font-size: 0.5rem;
+    padding-top: .15625rem;
+    color: #808080;
+}
+
+.summar .article .searchoutput .dd {
+    margin-top: .15625rem;
+    text-align: right;
+}
+.card_footer{
+    /* height: 6.25rem; */
+    position: fixed;
+    bottom: 0;
+
+     
+}
+.card_footer .submenu{
+    width: 21.5625rem;
+    display: flex;
+ margin-top: 1.25rem;  
+}
+.card_footer .submenu ul{
+    width: 21.5625rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card_footer .submenu ul li img{
+    width: 1.40625rem;
+}
+/* /////////////////////////////////////////////// */

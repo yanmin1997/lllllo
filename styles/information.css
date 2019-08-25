@@ -1,0 +1,195 @@
+.card-header{
+    padding-bottom: .3125rem;
+    border-bottom: .03125rem solid #cccccc;
+}
+
+
+.card-header .menu {
+    width:21.5625rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between; 
+}
+.card-header .menu .service{
+    width: 21.5625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header .menu .service .txt{
+    width: 6.25rem;
+    text-align: center;
+}
+.card-header .menu .service .txt p{
+    color: #888888;
+}
+.card-header .menu .service .kkk{
+   width: .625rem
+}
+/* ------------------------------------ */
+.summary{
+    width:21.5625rem;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+.summary .left{
+
+    width: 21.5625rem;
+    display: flex;
+    margin-bottom: .9375rem;
+    
+}
+.left ul{
+    display: flex;
+    align-items: center;
+
+}
+.left ul .gg{
+    width: 11.875rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height:  2.5rem;
+    border-radius: 2rem;
+    background: #e8e8e8;
+    font-size: .78125rem;
+}
+.left ul li{
+    margin-left: .46875rem;
+}
+ .left .lll{
+     width:2.5rem;
+     height: 2.5rem;
+     background: #ffffff;
+     border-radius: 60%;
+     background: url("../images/1/touxiang.jpg") no-repeat;
+     background-size: 2.5rem;
+ }
+ .summary .left:nth-child(2){
+     display: flex;
+     flex-direction: row-reverse;
+ }
+ .left .lll:nth-child(3){
+    width:2.5rem;
+    height: 2.5rem;
+    background: #ffffff;
+    border-radius: 60%;
+    background: url("../images/1/touxiang1.jpg") no-repeat;
+    background-size: 2.5rem;
+}
+.summary .left span{
+    color: #888888;
+    font-size: .5rem;
+    margin-top: 1.5rem;
+    display: block;
+}
+.video{
+    margin-top: .625rem;
+    width: 22.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.09375rem;
+}
+.video p{
+    color: #888888;
+    font-size: .5rem;
+}
+.left ul .ggg{
+    width: 11.5rem;
+    height: 3.75rem;
+    text-align: center;
+    padding-top:.8125rem;
+    border-radius: 1rem;
+    background: #e8e8e8;
+    font-size: .78125rem;
+}
+.left ul .gfg{
+    width: 8rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height:  2.5rem;
+    border-radius: 2rem;
+    background: #e8e8e8;
+    font-size: .78125rem;
+}
+/* ///////////////////////////////////////// */
+
+.card_footer{
+    border-top: .03125rem solid #cccccc;
+    width: 22.5rem;
+    
+}
+.card_footer .footer{
+    margin-top: .3125rem;
+    width: 22.5rem;
+    display: flex;
+    justify-content: center; 
+
+  
+}
+.card_footer .footer ul{
+    width: 22.5rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.card_footer .footer ul img{
+    width: 1rem;
+}
+.card_footer .footer ul form{
+    display: flex;
+    width: 15.625rem;
+    /* height: 2.1875rem; */
+    justify-content: flex-start; 
+    
+  
+}
+.card_footer .footer ul input{
+width: 15.625rem;
+/* height: 2.25rem; */
+border-radius: 2rem;
+border: none;
+border: .03125rem solid #f2f2f2;
+background: #f2f2f2;
+}
+.card_footer .footer ul form .pp{
+    display: block;
+  margin-left: -104px;
+  margin-top:.1875rem;
+}
+.lllllk{
+    margin-top:.3125rem;
+    width:22.5rem;
+    background: #f7f7f7;
+    padding-bottom: 2.5rem;
+}
+    .lllllk .submenu:nth-child(1){
+        padding-top: .46875rem;
+    }
+.submenu{
+    width: 21.5625rem;
+    display: flex;
+    margin:0 auto ;
+    
+}
+.submenu ul{
+    width: 21.5625rem;
+    display: flex;
+    justify-content: space-between;
+}
+.submenu ul li{
+    text-align: center;
+}
+.submenu ul li a{
+font-size: .78125rem;
+color: #888888;
+}
+.submenu ul li img{
+    width: 3.75rem;
+}
+
+.lllllk .submenu:nth-child(2){
+padding-top: 1rem;
+}
+
